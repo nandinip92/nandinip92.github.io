@@ -1,0 +1,43 @@
+<!--DOCTYPE html-->
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display-screen">0</div>
+
+      <div class="calc-buttons">
+        <button type="button" class="operator" id="mod_op" data-action="mod">%</button>
+        <button type="button" class="operator" id="pow" data-action="power">^</button>
+        <button type="button" class="operator" id="sqrt_op" data-action="SQRT">&radic;</button>
+        <button type="button" class="all-clear" id="clear_screen" data-action="clear_screen">C</button>
+
+        <button type="button" class="number" id= "7" data-action="digit">7</button>
+        <button type="button" class="number" id= "8" data-action="digit">8</button>
+        <button type="button" class="number" id= "9" data-action="digit">9</button>
+        <button type="button" class="operator" id= "divide_op" data-action="divide">&divide;</button>
+
+        <button type="button" class="number" id= "4" data-action="digit">4</button>
+        <button type="button" class="number" id= "5" data-action="digit">5</button>
+        <button type="button" class="number" id= "6" data-action="digit">6</button>
+        <button type="button" class="operator" id= "mul_op" data-action="multiply">&times;</button>
+
+        <button type="button" class="number" id= "1" data-action="digit">1</button>
+        <button type="button" class="number" id= "2" data-action="digit">2</button>
+        <button type="button" class="number" id= "3" data-action="digit">3</button>
+        <button type="button" class="operator" id= "sub_op" data-action="subtract">&minus;</button>
+
+        <button type="button" class="number" id= "0" data-action="digit">0</button>
+        <button type="button" class="decimal" id= "decimal" data-action="decimal">.</button>
+        <button type="button" class="equal-to" id= "equal-to" data-action="evaluate">=</button>
+        <button type="button" class="operator" id= "7" data-action="add">&plus;</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="calculator_functions.js"></script>
+  </body>
+</html>
