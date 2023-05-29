@@ -21,4 +21,4 @@ This application has 3 files:
 * calculator_functions.js - Javascript for performing operations for the event on the HTML
 * style.css - Style sheet for the index.html
 
-webpage: [Calculator](https://www.np-calculator.com) 
+webpage: [Calculator](https://nandinip92.github.io/) 
